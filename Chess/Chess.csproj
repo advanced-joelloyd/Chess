@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Games\CreateNewGame.cs" />
+    <Compile Include="Games\GameCommandHandler.cs" />
+    <Compile Include="Games\IDomainEvent.cs" />
+    <Compile Include="Games\NewGameCreated.cs" />
+    <Compile Include="IDomainChangePipelineElement.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
