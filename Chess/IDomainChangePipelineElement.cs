@@ -4,6 +4,6 @@ namespace Chess
 {
 	public interface IDomainChangePipelineElement
 	{
-		void Handle(IDomainEvent @event);
+		void Handle(DomainChanges changes);
 	}
 }

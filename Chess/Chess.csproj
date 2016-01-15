@@ -41,6 +41,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Games\CreateNewGame.cs" />
+    <Compile Include="Games\DomainChanges.cs" />
+    <Compile Include="Games\Game.cs" />
     <Compile Include="Games\GameCommandHandler.cs" />
     <Compile Include="Games\IDomainEvent.cs" />
     <Compile Include="Games\NewGameCreated.cs" />

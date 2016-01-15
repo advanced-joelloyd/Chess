@@ -11,7 +11,8 @@
 
 		public void Handle(CreateNewGame command)
 		{
-			_pipeline.Handle(new NewGameCreated(gameId: command.GameId));
+			var newGame = new Game(gameId: command.GameId);
+			_pipeline.Handle(newGame.GetChanges());
 		}
 	}
 }

@@ -12,9 +12,13 @@ namespace Chess.Tests.Games
 
 		public Queue<IDomainEvent> Events { get; }
 
-		public void Handle(IDomainEvent @event)
+		public void Handle(DomainChanges changes)
 		{
-			Events.Enqueue(@event);
+			foreach (var @event in changes.Events)
+			{
+				Events.Enqueue(@event);
+			}
+			
 		}
 	}
 }

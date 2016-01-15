@@ -2,7 +2,7 @@
 
 namespace Chess.Games
 {
-	public class CreateNewGame
+	public struct CreateNewGame
 	{
 		public CreateNewGame(Guid gameId)
 		{
