@@ -3,9 +3,9 @@ using Chess.Games;
 
 namespace Chess.Tests.Games
 {
-	public class GameEventsBag : IDomainChangePipelineElement
+	public class EventBag : IDomainChangePipelineElement
 	{
-		public GameEventsBag(IEnumerable<IDomainEvent> pastEvents)
+		public EventBag(IEnumerable<IDomainEvent> pastEvents)
 		{
 			Events = new Queue<IDomainEvent>(pastEvents);
 		}

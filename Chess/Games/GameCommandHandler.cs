@@ -1,6 +1,6 @@
 ﻿namespace Chess.Games
 {
-	public class GameCommandHandler
+	public class GameCommandHandler : ICommandHandler<CreateNewGame>
 	{
 		private readonly IDomainChangePipelineElement _pipeline;
 

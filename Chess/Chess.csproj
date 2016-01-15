@@ -44,6 +44,7 @@
     <Compile Include="Games\DomainChanges.cs" />
     <Compile Include="Games\Game.cs" />
     <Compile Include="Games\GameCommandHandler.cs" />
+    <Compile Include="Games\ICommandHandler.cs" />
     <Compile Include="Games\IDomainEvent.cs" />
     <Compile Include="Games\NewGameCreated.cs" />
     <Compile Include="IDomainChangePipelineElement.cs" />

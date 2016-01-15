@@ -59,7 +59,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Games\GameEventsBag.cs" />
+    <Compile Include="Games\EventBag.cs" />
+    <Compile Include="Games\Scenario.cs" />
     <Compile Include="Games\StartingANewGame.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
